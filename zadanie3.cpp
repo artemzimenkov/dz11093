@@ -4,7 +4,7 @@
 using namespace std;
 
 int itc_abs(int num){
-    int a;
-    a = abs(num);
-    return a;
+    if (num < 0)
+        num *= -1;
+    return num;
 }
